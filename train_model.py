@@ -77,7 +77,7 @@ except Exception as e:
 
 # ✅ Save Model
 try:
-    model.save("pneumonia_model.h5")
-    print("🎉 Model saved successfully as `pneumonia_model.h5`")
+    model.save("pneumonia_model.keras")
+    print("🎉 Model saved successfully as `pneumonia_model.keras`")
 except Exception as e:
     print(f"❌ ERROR: Model saving failed. Details: {str(e)}")
